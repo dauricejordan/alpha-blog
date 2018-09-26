@@ -25,8 +25,7 @@ class ArticlesController < ApplicationController
   
   def show
     
-  end
-  
+  end  
   def destroy
     @article.destroy
     flash[:danger] = "Article was successfully deleted"
